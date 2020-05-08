@@ -16,8 +16,12 @@ _global_script_class_icons={
 [application]
 
 config/name="2d Platformer"
-run/main_scene="res://MainScene.tscn"
+run/main_scene="res://TitleScreen.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+WorldVariables="*res://Scripts/WorldVariables.gd"
 
 [input]
 
